@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fafafa;
+  color: #333333;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+.site-header {
+  background-color: #2a9d8f;
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 30px;
+}
+
+.site-desc {
+  margin: 8px 0 0;
+  font-size: 16px;
+}
+
+.site-nav {
+  margin-top: 16px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 4px 6px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-content {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 24px 0 32px;
+}
+
+h2,
+h3 {
+  line-height: 1.3;
+}
+
+.intro,
+.culture-section,
+.city-section,
+.country-grid {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.video-section {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.video-grid {
+  overflow: hidden;
+}
+
+.video-card {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.video-card h3 {
+  margin: 12px 12px 8px;
+  color: #2a9d8f;
+}
+
+.video-card-video {
+  width: 100%;
+  height: 220px;
+  display: block;
+  background-color: #000000;
+  border: 0;
+}
+
+.video-card-link {
+  display: inline-block;
+  margin: 10px 12px 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2a9d8f;
+}
+
+.video-card-link:hover {
+  opacity: 0.9;
+}
+
+.video-card-link-secondary {
+  background-color: #264653;
+  margin-right: 0;
+}
+
+.hero-video {
+  width: 100%;
+  max-width: 900px;
+  height: 315px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro h2 {
+  margin: 0 0 8px;
+  color: #2a9d8f;
+}
+
+.intro p {
+  margin: 0;
+}
+
+.country-grid,
+.city-cards,
+.culture-section {
+  overflow: hidden;
+}
+
+.country-card {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.country-card img {
+  width: 100%;
+  height: 180px;
+  display: block;
+}
+
+.country-card h3 {
+  margin: 12px 12px 6px;
+  color: #2a9d8f;
+}
+
+.country-card p {
+  margin: 0 12px 12px;
+  font-size: 15px;
+}
+
+.country-card a {
+  display: inline-block;
+  margin: 0 12px 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2a9d8f;
+}
+
+.country-card a:hover {
+  opacity: 0.9;
+}
+
+.culture-section h2 {
+  margin: 0 0 12px;
+  color: #2a9d8f;
+  border-bottom: 2px solid #eaf4f3;
+  padding-bottom: 8px;
+}
+
+.culture-section img {
+  float: left;
+  width: 260px;
+  margin: 0 16px 8px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.section-desc {
+  margin: 0;
+}
+
+.city-section h2 {
+  margin: 0 0 8px;
+  text-align: center;
+  color: #2a9d8f;
+  border-bottom: 2px solid #eaf4f3;
+  padding-bottom: 8px;
+}
+
+.city-intro {
+  margin: 8px 0 16px;
+  text-align: center;
+}
+
+.category-title {
+  text-align: center;
+  margin: 20px 0 12px;
+  color: #2a9d8f;
+  border-top: 1px dashed #d8e7e5;
+  padding-top: 12px;
+}
+
+.city-cards {
+  margin-bottom: 8px;
+}
+
+.card {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+.card-title {
+  margin: 12px 12px 6px;
+  font-size: 18px;
+  color: #2a9d8f;
+}
+
+.card-desc {
+  margin: 0 12px 12px;
+  color: #555555;
+  font-size: 15px;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777777;
+  padding: 20px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-lg {
+  margin-top: 32px;
+}
